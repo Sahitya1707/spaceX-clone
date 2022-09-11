@@ -84,3 +84,26 @@
     margin-bottom: 0 25px;
   }
 }
+@media (max-width: 500px) {
+  .hamburger {
+    left: 80%;
+  }
+
+  .inner-left-content {
+    left: 30px;
+    bottom: 13%;
+  }
+  .text {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  a.button-left {
+    /* font-size: 5px; */
+    padding: 1rem 1rem;
+  }
+  .button-left .text {
+    font-size: 15px;
+  }
+}
