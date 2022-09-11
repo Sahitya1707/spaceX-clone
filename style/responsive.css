@@ -76,12 +76,17 @@
   .nav-item {
     padding-top: 0.6rem;
   }
+  .footer {
+    padding: 10px 0;
+  }
   .footer span {
     display: block;
     margin-bottom: 10px;
+    font-size: 10px;
   }
   .footer a {
     margin-bottom: 0 25px;
+    font-size: 10px;
   }
 }
 @media (max-width: 500px) {
@@ -105,5 +110,18 @@
   }
   .button-left .text {
     font-size: 15px;
+  }
+  .footer {
+    padding: 6px 0;
+  }
+  .footer span {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 7px;
+  }
+  .footer a {
+    margin-bottom: 14px;
+    font-size: 7px;
+    margin: 0 10px;
   }
 }
